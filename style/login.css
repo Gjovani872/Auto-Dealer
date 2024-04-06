@@ -1,0 +1,62 @@
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 1px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: #f44336;
+    border-color: #f44336;
+}
+
+.btn-primary:hover {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+}
+
+.text-danger {
+    margin-top: 1rem;
+}
+
+.text-muted {
+    color: #ccc;
+}
+
+a {
+    color: #f44336;
+}
+
+a:hover {
+    color: #d32f2f;
+}
